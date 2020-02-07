@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_recovery">
+
+    <fragment
+        android:id="@+id/navigation_recovery"
+        android:name="singh.inthamoussu.fitformula.ui.recovery.RecoveryFragment"
+        android:label="@string/title_recovery"
+        tools:layout="@layout/fragment_recovery" />
+
+    <fragment
+        android:id="@+id/navigation_workout"
+        android:name="singh.inthamoussu.fitformula.ui.workout.WorkoutFragment"
+        android:label="@string/title_workout"
+        tools:layout="@layout/fragment_workout" />
+
+    <fragment
+        android:id="@+id/navigation_log"
+        android:name="singh.inthamoussu.fitformula.ui.log.LogFragment"
+        android:label="@string/title_log"
+        tools:layout="@layout/fragment_log" />
+</navigation>
