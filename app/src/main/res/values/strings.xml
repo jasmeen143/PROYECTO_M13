@@ -3,4 +3,7 @@
     <string name="title_recovery">RECOVERY</string>
     <string name="title_workout">WORKOUT</string>
     <string name="title_log">LOG</string>
+    <string name="var_dias_desde_ultimo_entreno">DAYS SINCE YOUR LAST WORKOUT</string>
+    <string name="minus">-</string>
+    <string name="var_fresh_muscles">FRESH MUSCLES GROUP</string>
 </resources>
