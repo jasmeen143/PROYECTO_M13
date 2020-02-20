@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="60dp"
             android:gravity="center"
+            android:textColor="@color/primaryTextColor"
             android:text="@string/minus"
             android:textSize="24sp" />
 
@@ -28,6 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
             android:gravity="center"
+            android:textColor="@color/primaryTextColor"
             android:text=""
             android:textSize="24sp" />
 
@@ -46,6 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="60dp"
             android:gravity="center"
+            android:textColor="@color/primaryTextColor"
             android:text="@string/var_dias_desde_ultimo_entreno"
             android:textSize="12sp" />
 
@@ -55,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
             android:gravity="center"
+            android:textColor="@color/primaryTextColor"
             android:text="@string/var_fresh_muscles"
             android:textSize="12sp" />
 
