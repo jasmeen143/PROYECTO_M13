@@ -1,6 +1,8 @@
 package singh.inthamoussu.fitformula;
 
 import android.os.Bundle;
+import android.view.MotionEvent;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -26,4 +28,15 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
     }
 
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        int action = event.getActionMasked();
+
+        switch(action) {
+            case MotionEvent.ACTION_UP:
+                Toast.makeText(getApplicationContext(),"X: "+event.getX()+ " Y: "+event.getY(),Toast.LENGTH_SHORT).show();
+                break;
+        }
+        return true;
+    }
 }
